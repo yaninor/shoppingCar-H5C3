@@ -1,0 +1,340 @@
+.section1 {
+    background:url(../images/01/bg.png) no-repeat center bottom;
+}
+.section1 .products {
+    position: absolute;
+    left:50%;
+    margin-left: -407px;
+    bottom:160px;
+}
+.section1 .sofa {
+    position: absolute;
+    left:50%;
+    margin-left: -150px;
+    bottom:0;
+    margin-bottom: 300px;
+    animation: current 1.5s infinite alternate;
+}
+.section1 .ball {
+    position: absolute;
+    right: 100px;
+    top:100px;
+    animation: current 1s infinite alternate;
+}
+@keyframes current{
+    from {}
+    to{
+        transform: translateY(-50px);
+    }
+}
+.section2 {
+    background: url(../images/02/bg.png) no-repeat center bottom ;
+}
+.section2 .words {
+    position: absolute;
+    left:50%;
+    margin-left: -181px;
+    bottom: 600px;
+    /* margin-bottom: 100px; */
+}
+.section2 .search01 {
+    position: absolute;
+    left :50%;
+    margin-left: 600px;
+    bottom: 300px;
+}
+.section2 .search02 {
+    position: absolute;
+    left :50%;
+    margin-left: -111px;
+    bottom: 300px;
+    display: none;
+}
+.section2 .sofas {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right :50%;
+    margin-right: -220px;
+    bottom: 212px; 
+}
+.section3 {
+    background: url(../images/03/bg.png) no-repeat center;
+}
+.section3 .sofa {
+    position: absolute;
+    left:50%;
+    margin-left: -240px;
+    bottom: 50%;
+    margin-bottom: -50px;
+}
+.section3 .color {
+    width: 296px;
+    height: 131px;
+    background: url(../images/03/color01.gif) no-repeat;
+    position: absolute;
+    left:50%;
+    margin-left: 40px;
+}
+.section3 .add {
+    width: 218px;
+    height: 58px;
+    background: url(../images/03/add01.gif) no-repeat;
+    position: absolute;
+    left:50%;
+    margin-left: 40px;
+    bottom: 50%;
+    margin-bottom: -200px;
+}
+.section3.animation .color {
+    transition: all 1s;
+    background: url(../images/03/color02.gif) no-repeat;
+}
+.section3.animation .add {
+    transition: all 1s;
+    background: url(../images/03/add02.gif) no-repeat;
+}
+.section4 {
+    background: url(../images/04/bg.png) no-repeat center bottom;
+}
+.section4 .cloud {
+    position: absolute;
+    left:50%;
+    margin-left: 50px;
+    top:20px;
+    animation: cloud 80s infinite; 
+}
+@keyframes cloud {
+    from{}
+    to{
+        margin-left: -2000px;
+    }
+}
+.section4 .words {
+    width: 429px;
+    height: 32px;
+    background: url(../images/04/words01.png) no-repeat;
+    position: absolute;
+    left:50%;
+    margin-left: -215px;
+    bottom: 50%;
+    margin-bottom: 100px;
+
+}
+.section4.animation .words {
+    transition: all 1s 3s;
+    background: url(../images/04/words02.png) no-repeat;
+}
+.section4 .board {
+    width: 283px;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: -200px;
+    margin-left: -141px;
+    background: url(../images/04/keyboard.png) no-repeat;
+    display: none;
+}
+.section4 .board .address {
+    position: absolute;
+    left:50%;
+    margin-left: -86px;
+    bottom: 50%;
+    margin-bottom: 23px;
+}
+.section4 .carBox {
+    width: 407px;
+    height: 346px;
+    position: absolute;
+    left:50%;
+    margin-left: -203px;
+    bottom:50px;
+}
+.section4 .carBox .sofa{
+    position: absolute;
+    left:50%;
+    margin-left:-70px; 
+    bottom: 180px;
+
+}
+.section4 .carBox .car {
+    position: absolute;
+}
+.section5 {
+    background: url(../images/05/bg.png) no-repeat;
+    perspective: 800px;
+}
+.section5 .words {
+    position: absolute;
+    left:50%;
+    margin-left: -270px;
+    top:50px;
+    opacity: 0;
+}
+.section5 .bankCard {
+    width: 358px;
+    height: 221px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    bottom: 50%;
+    margin-bottom: -150px;
+}
+.section5 .bankCard .bill {
+    position: absolute;
+    left:50%;
+    margin-left: -50px;
+    top:0;
+}
+.section5 .bankCard .card {
+    position: absolute;
+    
+}
+.section5 .mouse{
+
+    width: 205px;
+    height: 370px;
+    background: url(../images/05/mouse01.png) no-repeat center bottom;
+
+    position: absolute;
+    left:50%;
+    margin-left: 230px;
+    top:0px;
+}
+
+.section5 .hand{
+
+    position: absolute;
+    left:50%;
+    margin-left: 210px;
+    top:320px;
+}
+.section5.animation .hand {
+    transition:all 1s;
+    top:240px;
+}
+.section5.animation .mouse {
+    transition: all 1s 1s;
+    background: url(../images/05/mouse02.png)no-repeat center bottom;  
+}
+.section5.animation .bill{
+    transition: all 1s 2s;
+    top:-130px;
+}
+.section5.animation .words {
+    transition: all 1s 3s;
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+.section6 .bg {
+    width: 100%;
+    height: 100%;
+    background: url(../images/06/bg.png) repeat-x -400px bottom;
+}
+.section6 .carBox {
+    width: 221px;
+    height: 122px;
+    position: absolute;
+    left:300px;
+    bottom:80px;
+}
+.section6 .car {
+    width: 221px;
+    height: 122px;
+    position: absolute;
+}
+.section6 .wrapBox {
+    width: 123px;
+    height: 85px;
+    position: absolute;
+    bottom:400px;
+    /* left:300px; */
+}
+.section6 .wrapBox .sofa {
+    width: 80px;
+    position: absolute;
+    left:20px;
+    top:-20px;
+}
+.section6 .wrapBox .box {
+    position: absolute;
+}
+.section6 .man {
+    height: 0;
+    position: absolute;
+    bottom:10px;
+    right: 0;
+}
+.section6 .door {
+    width: 106px;
+    height: 150px;
+    position: absolute;
+    bottom:116px;
+    left:710px;
+    display: none;
+}
+.section6 .girl {
+    height: 100px;
+    position: absolute;
+    bottom:116px;
+    left: 770px;
+
+    display: none;
+}
+.section7 {
+    background: url(../images/07/bg.png) no-repeat center bottom;
+}
+
+.section7 .star {
+    width: 0px;
+    height: 17px;
+    position: absolute;
+    background: url(../images/07/stars3.png) no-repeat;
+    left:50%;
+    margin-left: -300px;
+    bottom: 440px;
+}
+.section7 .good {
+    width: 72px;
+    height: 40px;
+    position: absolute;
+    left:50%;
+    margin-left: -280px;
+    bottom: 380px;
+    opacity: 0;
+}
+.section7.animation .star {
+    transition: all 1s steps(5);
+    width: 105px;
+}
+.section7.animation .good {
+    transition: all 1s 1s;
+    opacity: 1;
+}
+.section8 {
+    background: url(../images/08/bg.png) repeat;
+}
+.section8 .begin {
+    width: 389px;
+    height: 160px;
+    position: absolute;
+    background: url(../images/08/begin.png) no-repeat;
+    left:50%;
+    margin-left: -194px;
+    top:20px;
+}
+.section8 .begin:hover {
+    transition: all .5s;
+    background: url(../images/08/begin.gif) no-repeat;
+
+}
+.section8 .again {
+    position: absolute;
+    bottom:100px;
+    right:80px;
+}
+.section8 .hand {
+    position: absolute;
+    pointer-events: none;
+}
